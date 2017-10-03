@@ -11,7 +11,8 @@ We have lists of bought items from two users, in two separate files:
 file01: book12, book34, cd12, cd42, dvd32
 file02: book32, book34, dvd32
 Output should be: key-value pairs in which the key is the item and the value is the list of the items most commonly bought by customers who also bought this item.
-
+# The code is in /src folder.
+# The output is in
 The program is written in Java. And the code is in ItemSuggestion.java file.
 The mapper and reducer functions have been implemented. 
 Mapper makes a key value pairs, where the key is bought item and the value is a string containing all items bought in combination with the one which is the key.
@@ -19,9 +20,15 @@ In reducer, we merge all strings with the same key and then we sort the items in
 
 Output of this program looks like this: 
 
- book12	    book34 cd42 dvd32 cd12
- book32	    book34 dvd32
- book34	    dvd32 cd42 book32 book12 cd12
- cd12	 	    book12 book34 cd42 dvd32
- cd42	  	  book12 book34 dvd32 cd12
- dvd32	  	book34 book12 cd42 book32 cd12
+ book12	    book34 cd42 dvd32 cd12    
+ 
+ book32	    book34 dvd32    
+ 
+ book34	    dvd32 cd42 book32 book12 cd12   
+ 
+ cd12	 	    book12 book34 cd42 dvd32   
+ 
+ cd42	  	   book12 book34 dvd32 cd12    
+ 
+ dvd32	    	book34 book12 cd42 book32 cd12
+ 
