@@ -20,15 +20,15 @@ In reducer, we merge all strings with the same key and then we sort the items in
 
 Output of this program looks like this: 
 
- book12	        book34 cd42 dvd32 cd12    
+ book12        book34 cd42 dvd32 cd12    
  
- book32	        book34 dvd32    
+ book32        book34 dvd32    
  
- book34	        dvd32 cd42 book32 book12 cd12   
+ book34        dvd32 cd42 book32 book12 cd12   
  
- cd12	 	        book12 book34 cd42 dvd32   
+ cd12          book12 book34 cd42 dvd32   
  
- cd42	      	   book12 book34 dvd32 cd12    
+ cd42          book12 book34 dvd32 cd12    
  
- dvd32	        	book34 book12 cd42 book32 cd12
+ dvd32         book34 book12 cd42 book32 cd12
  
