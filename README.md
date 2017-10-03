@@ -1,6 +1,6 @@
 # IoT Big Data Processing
-Lab work 1
-Hadoop MapReduce
+# Lab work 1
+# Hadoop MapReduce
 
 The assignment of the first lab session was to get familiar with Hadoop MapRaduce system. During the lab session we have installed Hadoop, followed the tutorial and saw how it works on some examples.
 The last part of the first lab session was to write MapReduce program in Java by ourselves.
@@ -19,9 +19,9 @@ In reducer, we merge all strings with the same key and then we sort the items in
 
 Output of this program looks like this: 
 
-book12	  book34 cd42 dvd32 cd12
-book32	  book34 dvd32
-book34	  dvd32 cd42 book32 book12 cd12
-cd12	 	  book12 book34 cd42 dvd32
-cd42	  	  book12 book34 dvd32 cd12
-dvd32	  	  book34 book12 cd42 book32 cd12
+# book12	    book34 cd42 dvd32 cd12
+# book32	    book34 dvd32
+# book34	    dvd32 cd42 book32 book12 cd12
+# cd12	 	    book12 book34 cd42 dvd32
+# cd42	  	  book12 book34 dvd32 cd12
+# dvd32	  	  book34 book12 cd42 book32 cd12
